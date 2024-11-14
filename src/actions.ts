@@ -51,8 +51,20 @@ export class Actions<A extends string> {
 		})
 	}
 
+	private getFirstGamepad() {
+		let gamepad = this.gamepads[0]
+
+		for (const gp of this.gamepads) {
+			if (!gamepad || gp.Value < gamepad.Value) {
+				gamepad = gp
+			}
+		}
+
+		return gamepad
+	}
+
 	update(inputState: InputState, inputMap: InputMap<A>) {
-		const gamepad = this.gamepads[0]
+		const gamepad = this.getFirstGamepad()
 
 		for (const [action, state] of pairs(this.state) as IterableFunction<
 			LuaTuple<[A, ActionState]>
