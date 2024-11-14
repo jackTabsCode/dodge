@@ -1,0 +1,30 @@
+{
+	"name": "@rbxts/dodge",
+	"version": "1.0.0",
+	"main": "out/init.lua",
+	"scripts": {
+		"build": "rbxtsc",
+		"watch": "rbxtsc -w",
+		"prepublishOnly": "npm run build"
+	},
+	"keywords": [],
+	"author": "",
+	"license": "ISC",
+	"description": "",
+	"types": "out/index.d.ts",
+	"files": ["out", "!**/*.tsbuildinfo"],
+	"publishConfig": {
+		"access": "public"
+	},
+	"devDependencies": {
+		"@rbxts/compiler-types": "^3.0.0-types.0",
+		"@rbxts/types": "^1.0.813",
+		"rbxts-transformer-flamework": "^1.2.3",
+		"roblox-ts": "^3.0.0",
+		"typescript": "^5.6.3"
+	},
+	"dependencies": {
+		"@flamework/core": "^1.2.3",
+		"@rbxts/services": "^1.5.5"
+	}
+}

@@ -1,0 +1,15 @@
+{
+	"version": 1,
+	"flameworkVersion": "1.2.3",
+	"identifiers": {
+		"@rbxts/dodge:out/virtualAxis2d@VirtualAxis2d": "@rbxts/dodge:virtualAxis2d@VirtualAxis2d",
+		"@rbxts/dodge:out/inputMap@InputMap": "@rbxts/dodge:inputMap@InputMap",
+		"@rbxts/dodge:out/multiply2d@Multiply2d": "@rbxts/dodge:multiply2d@Multiply2d",
+		"@rbxts/dodge:out/virtualAxis@VirtualAxis": "@rbxts/dodge:virtualAxis@VirtualAxis",
+		"@rbxts/dodge:out/inputState@InputState": "@rbxts/dodge:inputState@InputState",
+		"@rbxts/dodge:out/signal@Signal": "@rbxts/dodge:signal@Signal",
+		"@rbxts/dodge:out/actions@Actions": "@rbxts/dodge:actions@Actions"
+	},
+	"metadata": {},
+	"identifierPrefix": "@rbxts/dodge"
+}
